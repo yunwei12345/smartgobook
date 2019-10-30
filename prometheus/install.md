@@ -35,14 +35,7 @@ docker run -d -p 9100:9100 \
 ​      
 
 ```
-root@ubuntu:~# netstat -anpt
-Active Internet connections (servers and established)
-Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name
-tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN      1147/sshd       
-tcp        0     36 192.168.91.53:22       192.168.91.1:63648      ESTABLISHED 2969/0          
-tcp        0      0 192.168.91.53:22       192.168.91.1:63340      ESTABLISHED 1321/1          
-tcp6       0      0 :::9100                 :::*                    LISTEN      3070/node_exporter
-
+lsof -i:9100
 ```
 
 
@@ -123,15 +116,7 @@ docker run  -d \
   
 
 ```
-root@ubuntu:/opt/prometheus# netstat -anpt
-Active Internet connections (servers and established)
-Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name
-tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN      1147/sshd       
-tcp        0     36 192.168.91.132:22       192.168.91.1:63648      ESTABLISHED 2969/0          
-tcp        0      0 192.168.91.132:22       192.168.91.1:63340      ESTABLISHED 1321/1          
-tcp6       0      0 :::9100                 :::*                    LISTEN      3070/node_exporter
-tcp6       0      0 :::22                   :::*                    LISTEN      1147/sshd       
-tcp6       0      0 :::9090                 :::*                    LISTEN      3336/docker-proxy
+lsof -i:9090
 ```
 
 
@@ -139,7 +124,7 @@ tcp6       0      0 :::9090                 :::*                    LISTEN      
 访问url：
 
 ```
-http://192.168.91.132:9090/graph
+http://192.168.150.48:9090/graph
 ```
 
 
@@ -164,4 +149,65 @@ mkdir /opt/grafana-storage
 
 ​           
 
-​        设置
+​        设置权限
+
+
+
+```
+chmod 777 -R /opt/grafana-storage       #grafana用户会在该目录写入文件
+```
+
+
+
+​      启动grafana
+
+​    
+
+```
+docker run -d \
+  -p 3000:3000 \
+  --name=grafana \
+  -v /opt/grafana-storage:/var/lib/grafana \
+  grafana/grafana
+```
+
+
+
+​       查看3000端口启动状态
+
+
+
+```
+lsof -i:3000
+```
+
+
+
+访问 url 
+
+​      
+
+```
+http://192.168.150.48:3000/  
+```
+
+
+
+
+
+   ![](images/grafana登陆界面.png)
+
+
+
+
+
+
+
+![](images\增加数据源.png)
+
+
+
+
+
+
+
