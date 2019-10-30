@@ -14,11 +14,11 @@
 
 ​                    [jumpserver]()
 
-​                          [简介](jumpserver/jumpserver简介.md)
+​                          [简介](jumpserver/介绍.md)
 
 ​                          [安装文档](jumpserver/install.md)
 
-​                         
+​                          [使用](jumpserver/use.md)
 
 ​             
 
