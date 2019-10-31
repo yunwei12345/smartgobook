@@ -1,0 +1,29 @@
+global:
+  scrape_interval:     60s  
+  evaluation_interval: 60s
+ 
+scrape_configs:
+  - job_name: prometheus
+    static_configs:
+      - targets: ['localhost:9090']
+ 
+  - job_name: linux
+    static_configs:
+      - targets: ['192.168.150.48:9100'] # 此处ip地址就是本机loacalhost
+        labels:
+          instance: linux
+
+  - job_name: agent
+    static_configs:
+      - targets: ['192.168.150.53:9100']  
+        labels:
+          instance: agent
+
+  - job_name: agent2
+    static_configs:
+      - targets: ['192.168.150.54:9100']  
+        
+        
+          
+ 
+
