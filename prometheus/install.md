@@ -131,7 +131,7 @@ http://192.168.150.48:9090/graph
 
 
 
-​           ![456](/images/a.png)
+​           ![](/images/a.png)
 
 
 
@@ -195,7 +195,7 @@ http://192.168.150.48:3000/
 
 
 
-   ![789](images/grafana登陆界面.png)
+   ![](images/grafana登陆界面.png)
 
 
 
