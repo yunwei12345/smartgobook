@@ -10,5 +10,5 @@
 
 
 
-![](https://github.com/yunwei12345/smartgobook/raw/master/images/nexus.png)
+![](https://github.com/yunwei12345/smartgobook/raw/master/nexus/images/nexus.png)
 
