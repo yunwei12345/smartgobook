@@ -131,7 +131,7 @@ http://192.168.150.48:9090/graph
 
 
 
-​           ![](images/a.png)
+​           ![](/images/a.png)
 
 
 
@@ -195,7 +195,7 @@ http://192.168.150.48:3000/
 
 
 
-   ![](images/grafana登陆界面.png)
+   ![](/images/grafana登陆界面.png)
 
 
 
@@ -203,7 +203,9 @@ http://192.168.150.48:3000/
 
 
 
-![](images\增加数据源.png)
+![](/images/增加数据源.png)
+
+
 
 
 
