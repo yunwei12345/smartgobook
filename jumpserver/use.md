@@ -47,7 +47,7 @@
 
 
 
-![](images\管理user.png)
+![](https://github.com/yunwei12345/smartgobook/raw/master/jumpserver/images/管理user.png)
 
 
 
