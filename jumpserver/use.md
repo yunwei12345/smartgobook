@@ -14,7 +14,7 @@
 
 
 
-![](images\系统邮件.png)
+![](images/系统邮件.png)
 
 
 
