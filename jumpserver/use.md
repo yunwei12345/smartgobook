@@ -30,7 +30,7 @@
 
 
 
-![](images\资产.png)
+![](images/资产.png)
 
 
 
@@ -63,7 +63,7 @@
 
 
 
-![](images\系统user.png)
+![](images/系统user.png)
 
 
 
@@ -87,7 +87,7 @@
 
 
 
-![](images\权管.png)
+![](images/权管.png)
 
 
 
@@ -105,7 +105,7 @@ ssh -p2222 smartgotest@192.168.150.48
 
 
 
- ![](images\connect.png)
+ ![](images/connect.png)
 
 
 
@@ -123,7 +123,7 @@ ssh -p2222 smartgotest@192.168.150.48
 
 
 
-![](images\web.png)
+![](images/web.png)
 
 
 
