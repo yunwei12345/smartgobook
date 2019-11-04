@@ -77,7 +77,7 @@ Started Sonatype Nexus
 
 
 
-![](images\web-nexus.png)
+![](images/web-nexus.png)
 
 
 
