@@ -25,7 +25,7 @@
 
 *  [jumpserver]()
   *  [简介](jumpserver/介绍.md)
-  *  [安装文档](jumpserver/install.md)
+  *  [安装文档](jumpserver/安装.md)
   *  [使用](jumpserver/use.md)
 
 ​             
