@@ -30,7 +30,7 @@
 
 
 
-![](C:\Users\Administrator\Desktop\images\资产.png)
+![](images\资产.png)
 
 
 
