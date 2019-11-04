@@ -87,7 +87,7 @@
 
 
 
-![](C:\Users\Administrator\Desktop\images\权管.png)
+![](images\权管.png)
 
 
 
