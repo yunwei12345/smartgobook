@@ -22,7 +22,7 @@
 
 
 
-![](images\c.png)
+![](images/c.png)
 
 
 
@@ -40,7 +40,7 @@ url 输入Prometheus的ip+端口
 
 
 
-![](images\d.png)
+![](images/d.png)
 
 
 
@@ -52,13 +52,13 @@ url 输入Prometheus的ip+端口
 
 
 
-![](images\创建图形1.png)
+![](images/创建图形1.png)
 
 
 
 
 
-![](C:\Users\Administrator\Desktop\images\创建图形1-2.png)
+![](images/创建图形1-2.png)
 
 
 
@@ -74,19 +74,19 @@ url 输入Prometheus的ip+端口
 
 
 
-![](images\cpu.png)
+![](images/cpu.png)
 
 
 
 
 
-![](images\内存.png)
+![](images/内存.png)
 
 
 
 
 
-![](C:\Users\Administrator\Desktop\images\磁盘.png)
+![](images/磁盘.png)
 
 
 
