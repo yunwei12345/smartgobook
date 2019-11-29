@@ -34,13 +34,14 @@
   * [快速入门](gitlab/introduction.md)
   * [安装](gitlab/install.md)
 
-*  [sonar]()
-
+* [sonar]()
    * [简介](sonar/简介.md)
    * [安装文档](sonar/install.md)
    * [项目集成]()
 
-​    
+* [rancher]()
+  * [快速入门](rancher/快速入门.md)
+  * [安装](部署安装.md)
 
 ##           堡垒机
 
